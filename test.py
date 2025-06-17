@@ -1,35 +1,58 @@
 import customtkinter as ctk
 
-root = ctk.CTk()
-root.geometry("700x150")  # Lebar diperbesar biar cukup untuk form horizontal
-root.title("Timer Hitung Mundur")
+class App(ctk.CTk):
+    def __init__(self):
+        super().__init__()
+        self.geometry("400x300")
+        self.title("Navigasi Halaman")
 
-menit = 25
+        # Container utama untuk halaman-halaman
+        self.container = ctk.CTkFrame(self)
+        self.container.pack(fill="both", expand=True)
 
-# Container frame
-formFrame = ctk.CTkFrame(root)
-formFrame.grid(row=0, column=0, padx=10, pady=10, sticky="nsew")
+        self.frames = {}
 
-# Focus Time
-focusLabel = ctk.CTkLabel(formFrame, text="Focus Time:", font=("Arial", 12), text_color="#333333")
-focusLabel.grid(row=0, column=0, sticky="w", padx=5, pady=0)
+        for F in (HalamanUtama, TaskList, Riwayat):
+            frame = F(self.container, self)
+            self.frames[F] = frame
+            frame.grid(row=0, column=0, sticky="nsew")
 
-focusEntry = ctk.CTkEntry(formFrame, width=80, textvariable=ctk.StringVar(value=str(menit)), font=("Arial", 12))
-focusEntry.grid(row=0, column=1, padx=0, pady=0)
+        self.tampilkan_halaman(HalamanUtama)
 
-# Short Break
-shortBreakLabel = ctk.CTkLabel(formFrame, text="Short Break:", font=("Arial", 12), text_color="#333333")
-shortBreakLabel.grid(row=0, column=2, sticky="w", padx=0, pady=0)
+    def tampilkan_halaman(self, page):
+        frame = self.frames[page]
+        frame.tkraise()
 
-shortBreakEntry = ctk.CTkEntry(formFrame, width=80, font=("Arial", 12))
-shortBreakEntry.grid(row=0, column=3, padx=0, pady=0)
 
-# Long Break
-longBreakLabel = ctk.CTkLabel(formFrame, text="Long Break:", font=("Arial", 12), text_color="#333333")
-longBreakLabel.grid(row=0, column=4, sticky="w", padx=0, pady=0)
+class HalamanUtama(ctk.CTkFrame):
+    def __init__(self, parent, controller):
+        super().__init__(parent)
+        label = ctk.CTkLabel(self, text="Ini Halaman Utama")
+        label.pack(pady=10)
+        tombol_task = ctk.CTkButton(self, text="Ke Task List", command=lambda: controller.tampilkan_halaman(TaskList))
+        tombol_task.pack(pady=5)
+        tombol_riwayat = ctk.CTkButton(self, text="Ke Riwayat", command=lambda: controller.tampilkan_halaman(Riwayat))
+        tombol_riwayat.pack(pady=5)
 
-longBreakEntry = ctk.CTkEntry(formFrame, width=80, font=("Arial", 12))
-longBreakEntry.grid(row=0, column=5, padx=0, pady=0)
 
-root.grid_columnconfigure(0, weight=1)
-root.mainloop()
+class TaskList(ctk.CTkFrame):
+    def __init__(self, parent, controller):
+        super().__init__(parent)
+        label = ctk.CTkLabel(self, text="Ini Halaman Task List")
+        label.pack(pady=10)
+        tombol_kembali = ctk.CTkButton(self, text="Kembali", command=lambda: controller.tampilkan_halaman(HalamanUtama))
+        tombol_kembali.pack(pady=5)
+
+
+class Riwayat(ctk.CTkFrame):
+    def __init__(self, parent, controller):
+        super().__init__(parent)
+        label = ctk.CTkLabel(self, text="Ini Halaman Riwayat")
+        label.pack(pady=10)
+        tombol_kembali = ctk.CTkButton(self, text="Kembali", command=lambda: controller.tampilkan_halaman(HalamanUtama))
+        tombol_kembali.pack(pady=5)
+
+
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
