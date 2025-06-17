@@ -8,6 +8,9 @@ root = ctk.CTk()
 root.geometry("400x300")
 root.title("Pomodoro")
 root.configure(fg_color="#F1F1F1")
+root.resizable(False, False)
+root._set_appearance_mode("system")  # Atur mode tampilan sesuai sistem
+root.iconbitmap("TOMAT.ico")
 
 # Variabel waktu
 menit = 0
