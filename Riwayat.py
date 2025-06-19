@@ -95,7 +95,7 @@ def load_and_display_data():
             font=ctk.CTkFont(size=12, family="Jersey 10"),
             fg_color="#CC3333", hover_color="#AA2222",
             text_color="#F1F1F1",
-            width=60,  height=20 
+            width=20,  height=20 
         )
         delete_button.grid(row=i, column=3, padx=5, pady=2, sticky="e")
 
