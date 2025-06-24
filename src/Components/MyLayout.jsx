@@ -84,7 +84,6 @@ const MyLayout = () => {
         </button>
 
 
-        {/* --- Search Modal Component --- */}
         <SearchModal
           isOpen={isSearchModalOpen}
           onClose={closeSearchModal}
