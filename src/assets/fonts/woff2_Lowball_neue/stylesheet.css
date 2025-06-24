@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Lowball Neue';
+    src: url('LowballNeue-Bold.woff2') format('woff2'),
+        url('LowballNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue ExtLt';
+    src: url('LowballNeue-ExtraLight.woff2') format('woff2'),
+        url('LowballNeue-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue';
+    src: url('LowballNeue-Light.woff2') format('woff2'),
+        url('LowballNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue ExtLt Ita';
+    src: url('LowballNeue-ExtraLightItalic.woff2') format('woff2'),
+        url('LowballNeue-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue Ita';
+    src: url('LowballNeue-BoldItalic.woff2') format('woff2'),
+        url('LowballNeue-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue Ita';
+    src: url('LowballNeue-Italic.woff2') format('woff2'),
+        url('LowballNeue-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue Light Ita';
+    src: url('LowballNeue-LightItalic.woff2') format('woff2'),
+        url('LowballNeue-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue';
+    src: url('LowballNeue-Thin.woff2') format('woff2'),
+        url('LowballNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue';
+    src: url('LowballNeue-Regular.woff2') format('woff2'),
+        url('LowballNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue Thin Ita';
+    src: url('LowballNeue-ThinItalic.woff2') format('woff2'),
+        url('LowballNeue-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue Med Ita';
+    src: url('LowballNeue-MediumItalic.woff2') format('woff2'),
+        url('LowballNeue-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue Med';
+    src: url('LowballNeue-Medium.woff2') format('woff2'),
+        url('LowballNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue SemBd Ita';
+    src: url('LowballNeue-SemiBoldItalic.woff2') format('woff2'),
+        url('LowballNeue-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lowball Neue SemBd';
+    src: url('LowballNeue-SemiBold.woff2') format('woff2'),
+        url('LowballNeue-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

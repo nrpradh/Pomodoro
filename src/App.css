@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@font-face {
+  font-family: eger-italic;
+  src: url('./assets/fonts/eger-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: eger-regular;
+  src: url('./assets/fonts/eger-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: neuetus-regular;
+  src: url('./assets/fonts/netus-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: lbneue-regular;
+  src: url('./assets/fonts/woff2_Lowball_neue/LowballNeue-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: lbneue-medium;
+  src: url('./assets/fonts/woff2_Lowball_neue/LowballNeue-Medium.woff2') format('woff2');
+}

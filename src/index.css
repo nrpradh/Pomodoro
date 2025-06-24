@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-allWhite: #d7e2e8;
+  --color-allBlack: #303030;
+  --color-lightGrey: #94a5af;
+  --color-darkGrey: #617985;
+  --color-allBlue: #79b6e5;
+  --color-allOrange:#fc6b13 ;
+
+  --font-egerItalic: eger-italic, sans-serif ;
+  --font-egerReg: eger-regular, sans-serif ;
+  --font-neuetusReg: neuetus-regular, sans-serif ;
+
+  --font-lbneueReg: lbneue-regular, sans-serif ;
+  --font-lbneueMed: lbneue-medium, sans-serif ;
+}
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5; */
+  /* font-weight: 400; */
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #c8c8c8; */
+  @apply bg-allWhite;
+  
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  /* font-weight: 500; */
+  @apply text-allOrange;
+  text-decoration: inherit;
+}
+a:hover {
+  @apply text-allBlack
+}
+
+body {
+  display: flex;
+  @apply min-h-svh py-4 
+  min-w-20
+  /* place-items-center */
+  ;
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+}
+
+h1 {
+  @apply leading-6 font-lbneueMed
+  /* font-size: 3.2em; */
+  /* line-height: 1.1; */
+}
+
+p {
+  @apply font-neuetusReg text-darkGrey leading-8
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

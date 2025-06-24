@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Software testing",
+    "description": "Learning sources for testing, quality assurance.",
+    "tools": [
+      { "id": 1, "name": "MySkill", "icon": "myskill.id", "link": "https://myskill.id/learning-path/software-quality-assurance" },
+      { "id": 2, "name": "GURU99", "icon": "guru99.com", "link": "https://www.guru99.com/software-testing.html/" },
+      { "id": 3, "name": "STMaterial", "icon": "softwaretestingmaterial.com", "link": "https://www.softwaretestingmaterial.com" },
+      { "id": 4, "name": "Cirro io", "icon": "cirro.io", "link": "https://cirro.io/users/sign_in" },
+      { "id": 4, "name": "Panduan QA", "icon": "panduanqa.com", "link": "https://panduanqa.com/panduan-onboarding-test-io-cara-agar-akun-cepat-dapat-project-invite-dan-menghasilkan/" }
+    ]
+  },
+  {
+    "name": "Design",
+    "description": "Utilities for UI/UX",
+    "tools": [
+      { "id": 1, "name": "Figma", "icon": "figma.com", "link": "https://www.figma.com/" },
+      { "id": 2, "name": "Color-name", "icon": "color-name.com", "link": "https://www.color-name.com/" },
+      { "id": 4, "name": "SVG Compressor", "icon": "⚡", "link": "https://jakearchibald.github.io/svgomg/" }
+    ]
+  },
+  {
+    "name": "Mockups, Pitching",
+    "description": "Hi-fi presentation, organizing.",
+    "tools": [
+      { "id": 1, "name": "Shots.so", "icon": "https://logo.clearbit.com/shots.so", "link": "https://shots.so" },
+      { "id": 2, "name": "MockUPhone", "icon": "https://logo.clearbit.com/mockuphone.com", "link": "https://mockuphone.com/type/laptop/" },
+      { "id": 3, "name": "Jitter", "icon": "https://logo.clearbit.com/jitter.video", "link": "https://jitter.video/" }
+    ]
+  },
+  {
+    "name": "UI libraries, icons",
+    "description": "Libraries, icons, frameworks.",
+    "tools": [
+      { "id": 1, "name": "DaisyUI", "icon": "daisyui.com", "link": "https://daisyui.com/" },
+      { "id": 2, "name": "MaterialUI", "icon": "mui.com", "link": "https://mui.com/" },
+      { "id": 3, "name": "Tailblocks", "icon": "tailblocks.cc", "link": "https://tailblocks.cc/" },
+      { "id": 4, "name": "GSAP", "icon": "gsap.com", "link": "https://gsap.com/" },
+      { "id": 5, "name": "React-icons", "icon": "react-icons.github.io", "link": "https://react-icons.github.io/react-icons/" }
+    ]
+  },
+  {
+    "name": "AI assistants",
+    "description": "AI helpers, assistant.",
+    "tools": [
+      { "id": 1, "name": "ChatGPT", "icon": "chat.openai.com", "link": "https://chat.openai.com/" },
+      { "id": 2, "name": "Gemini", "icon": "gemini.google.com", "link": "https://gemini.google.com/app" },
+      { "id": 2, "name": "ChatPDF", "icon": "chatpdf.com", "link": "https://www.chatpdf.com/" }
+    ]
+  },
+  {
+    "name": "Font resources",
+    "description": "Typography, font resources and converters.",
+    "tools": [
+      { "id": 1, "name": "Dafont", "icon": "dafontfree.co", "link": "https://www.dafontfree.co/" },
+      { "id": 2, "name": "Befonts", "icon": "befonts.com", "link": "https://befonts.com/" },
+      { "id": 3, "name": "Fontspace", "icon": "fontspace.com", "link": "https://www.fontspace.com" },
+      { "id": 4, "name": "Generative fonts", "icon": "generativefonts.xyz", "link": "https://www.generativefonts.xyz/" },
+      { "id": 4, "name": "Transfonter", "icon": "transfonter.org", "link": "https://transfonter.org//" }
+    ]
+  },
+  {
+    "name": "Image thingy",
+    "description": "Image PNG & JPG",
+    "tools": [
+        { "id": 1, "name": "Squoosh", "icon": "squoosh.app", "link": "https://squoosh.app/" },
+        { "id": 2, "name": "Unsplash", "icon": "unsplash.com", "link": "https://unsplash.com/" },
+        { "id": 3, "name": "Logo clearbit", "icon": "logo.clearbit.com", "link": "https://logo.clearbit.com/" },
+        { "id": 4, "name": "Pexels", "icon": "pexels.com", "link": "https://www.pexels.com/" },
+        { "id": 5, "name": "Pixabay", "icon": "pixabay.com", "link": "https://pixabay.com/" }
+    ]
+  },
+  {
+    "name": "UI design inspirations",
+    "description": "Web & app design inspiration.",
+    "tools": [
+        { "id": 1, "name": "Dribbble", "icon": "dribbble.com", "link": "https://dribbble.com/" },
+        { "id": 2, "name": "Viewport UI", "icon": "viewport-ui.design", "link": "https://viewport-ui.design" },
+        { "id": 3, "name": "Awwwards", "icon": "awwwards.com", "link": "https://www.awwwards.com/" }
+    ]
+  },
+  {
+    "name": "AI interface generator",
+    "description": "Web & app design inspiration.",
+    "tools": [
+        { "id": 1, "name": "v0", "icon": "v0.dev", "link": "https://v0.dev/" },
+        { "id": 1, "name": "uizard", "icon": "uizard.io", "link": "https://uizard.io" }
+    ]
+  },
+  {
+    "name": "Graphic illustration ",
+    "description": "Free 2D & 3D sources.",
+    "tools": [
+        { "id": 1, "name": "Wannathis.one", "icon": "wannathis.one", "link": "https://wannathis.one/" },
+        { "id": 4, "name": "Coolshap", "icon": "coolshap.es", "link": "https://coolshap.es/" },
+        { "id": 2, "name": "Viewport UI", "icon": "viewport-ui.design", "link": "https://viewport-ui.design" },
+        { "id": 3, "name": "Undraw", "icon": "undraw.co", "link": "https://undraw.co/" },
+        { "id": 4, "name": "Lummi", "icon": "lummi.ai", "link": "https://www.lummi.ai" },
+        { "id": 5, "name": "Storyset", "icon": "storyset.com", "link": "https://storyset.com" },
+        { "id": 4, "name": "Lummi", "icon": "lummi.ai", "link": "https://www.lummi.ai" }
+    ]
+  },
+  {
+    "name": "Stock videos",
+    "description": "Video, clip as illustration.",
+    "tools": [
+        { "id": 1, "name": "Mixkit", "icon": "mixkit.co", "link": "https://mixkit.co/" }
+       
+    ]
+  },
+  {
+    "name": "Works Showcase refs",
+    "description": "Showcasing references for projects, portfolios.",
+    "tools": [
+        { "id": 1, "name": "Capiproduct", "icon": "capiproduct.com", "link": "https://www.capiproduct.com/" }
+       
+    ]
+  },
+  {
+    "name": "Figma plugins",
+    "description": "Design, mockups, etc.",
+    "tools": [
+        { "id": 1, "name": "Artboard studio", "icon": "/artboard.studio", "link": "https://artboard.studio/" },
+        { "id": 2, "name": "Storyset", "icon": "storyset.com", "link": "https://storyset.com" }
+       
+    ]
+  },
+  {
+    "name": "React mastery",
+    "description": "Challenges, components, mini projects.",
+    "tools": [
+        { "id": 1, "name": "React Challenges", "icon": "reactchallenges.live", "link": "https://reactchallenges.live" },
+        { "id": 2, "name": "Train React", "icon": "trainreact.com", "link": "https://www.trainreact.com/problems" },
+        { "id": 2, "name": "reactpractice.dev", "icon": "reactpractice.dev", "link": "https://reactpractice.dev/" },
+        { "id": 2, "name": "CodeVertiser", "icon": "codevertiser.com", "link": "https://www.codevertiser.com/free-reactjs-coding-challenges-for-responsive-UI/" }
+       
+    ]
+  }
+]
