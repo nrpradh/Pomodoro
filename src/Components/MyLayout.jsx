@@ -56,7 +56,7 @@ const MyLayout = () => {
   onMount(() => {
     const handleKeyDown = (event) => {
       if (event.ctrlKey && event.key === 'k') {
-        event.preventDefault(); // Prevent default browser search/history action
+        event.preventDefault(); 
         openSearchModal();
       }
     };
@@ -68,11 +68,10 @@ const MyLayout = () => {
   });
 
   return (
-    <div class="min-h-screen lg:py-16 py-8 font-sans">
+    <div class="min-h-screen lg:py-16 py-8 font-sans ">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* --- Floating Search Trigger Button --- */}
-        {/* This button will be always visible and trigger the modal */}
         <button
           onClick={openSearchModal}
           class="fixed bottom-4 right-6 gap-2 bg-allOrange text-allWhite p-4 rounded-md  hover:cursor-pointer hover:bg-allBlack transition-colors duration-200 flex items-center justify-center "
