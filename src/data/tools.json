@@ -84,7 +84,8 @@
     "description": "Web & app design inspiration.",
     "tools": [
         { "id": 1, "name": "v0", "icon": "v0.dev", "link": "https://v0.dev/" },
-        { "id": 1, "name": "uizard", "icon": "uizard.io", "link": "https://uizard.io" }
+        { "id": 1, "name": "uizard", "icon": "uizard.io", "link": "https://uizard.io" },
+        { "id": 1, "name": "Bolt", "icon": "bolt.new", "link": "https://bolt.new" }
     ]
   },
   {
