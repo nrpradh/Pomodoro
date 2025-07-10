@@ -1,4 +1,3 @@
-// import GridLayout from "../Components/Gemini_Layout";
 import MyLayout from "../Components/MyLayout";
 
 const Home = () => {
